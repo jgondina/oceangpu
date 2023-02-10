@@ -215,9 +215,9 @@ def gls_prestep_tile(ng):
           END DO
         END DO
 # endif
-!
-!  Time-step horizontal advection.
-!
+# !
+# !  Time-step horizontal advection.
+# !
         IF (iic(ng).eq.ntfirst(ng)) THEN
           cff1=1.0_r8
           cff2=0.0_r8
